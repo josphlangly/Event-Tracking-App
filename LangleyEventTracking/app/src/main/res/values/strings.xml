@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Langley Events</string>
+
+    <string name="welcome">Welcome Back!</string>
+    <string name="instructions">Sign into your Account</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="new_user">New User?</string>
+    <string name="click_here">Create Account</string>
+
+    <string name="new_account_title">Register Account</string>
+    <string name="register_instructions">Fill in the Following Information</string>
+    <string name="prompt_name">Full Name</string>
+    <string name="prompt_birthday">Birthday</string>
+    <string name="prompt_phone">Phone Number</string>
+    <string name="new_account_button">Register</string>
+    <string name="return_button">Return to Login</string>
+
+    <string name="data_display_title">Upcoming Events</string>
+    <string name="add_data_button">Add New Event</string>
+
+    <string name="event_details_title">Event Details</string>
+    <string name="event_title">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_description">Event Description</string>
+
+    <string name="update_button">Update Event</string>
+    <string name="delete_button">Delete Event</string>
+
+    <string name="text_opt_in">Send Text Notifications 24 Hours Before Event?</string>
+</resources>

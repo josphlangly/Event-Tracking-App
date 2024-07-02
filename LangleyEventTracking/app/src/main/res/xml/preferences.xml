@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Account">
+        <Preference
+            android:key="logout"
+            android:title="Log out"
+            android:summary="Log out of your account" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notifications">
+        <SwitchPreferenceCompat
+            android:key="sms_notifications"
+            android:title="SMS Notifications"
+            android:summary="Enable or disable SMS notifications"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
