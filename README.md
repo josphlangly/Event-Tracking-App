@@ -1,1 +1,14 @@
-# CS360
+Summary of Requirements and Goals
+Th Event Tracking app was designed to help users easily manage and track personal events. The main user need it addresses is the organization and reminder of events, simplifying the process of keeping track of important dates.
+
+Screens and Features
+Key screens include the login, registration, event listing, event detail, and settings screens. Features like event creation, editing, deletion, SMS notifications, and calendar syncing support user needs. The UI design focuses on simplicity and intuitiveness, ensuring users can navigate and utilize the app without confusion. The UI design kept users in mind by providing clear navigation, easy access to event details, and a streamlined registration process. The use of familiar icons, straightforward forms, and responsive design elements made the app user-friendly and accessible, contributing to its success. There are areas that could be enhanced. I'm unsure if users will understand that they can click on individual events to edit them or not. 
+
+Coding Approach
+The coding process involved modular development, using ViewModels for managing UI-related data and Repositories for handling data operations. Techniques like LiveData ensured real-time updates, while encapsulating functionality in utility classes improved code reusability. These strategies can be applied to future projects to maintain clean and maintainable codebases. I found a ton of very helpful vidoes on YouTube that I dug into as well as a lot of Android Developer pages to make sure that each of the components interacted with each other correctly. There were some things I want to modularize further and started to do but wanted to ensure the assignemnt was turned in somewhat reasonably.
+
+Testing and Importance
+Thorough testing was conducted throughout the project. Manual testing to ensure functionality was often. And a LOT of debugging. Debugging really helped me hone down on which lines were casuing problems and focus my effort there. While I didn't create unit tests specifically, the manual testing I did attempted to "unit test" by going through multiple options. This process is crucial for identifying and fixing bugs, ensuring the app performs as expected. Testing revealed issues such as data integrity problems and UI inconsistencies, which were addressed before finalization.
+
+Demonstrating Knowledge and Skills
+The implementation of the ViewModel and LiveData components was particularly successful. This by far took the longest time trying to piece together how these components would interact with the Room Database and Repository that I created and then access to different databases for users and events. These components ensured data consistency and responsiveness across the app, highlighting the ability to create efficient and user-centered mobile applications. I feel good about the knowledge that I gained from the process.
