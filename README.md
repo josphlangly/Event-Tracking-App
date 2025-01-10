@@ -1,7 +1,7 @@
-# Langley Event Tracking App
+# Event Tracking App
 
 ### Overview
-The **Langley Event Tracking App** is an Android application designed to help users manage and track personal events. The app provides user authentication, event management (add, edit, delete), automatic birthday event creation, and first-time login prompts for SMS notifications. It utilizes a clean architecture with Repository and DAO patterns for efficient data handling and leverages `RecyclerView` for smooth event list management.
+The **Event Tracking App** is an Android application designed to help users manage and track personal events. The app provides user authentication, event management (add, edit, delete), automatic birthday event creation, and first-time login prompts for SMS notifications. It utilizes a clean architecture with Repository and DAO patterns for efficient data handling and leverages `RecyclerView` for smooth event list management.
 
 ---
 
